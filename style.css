@@ -1,0 +1,122 @@
+         body {
+             text-align: center;
+             padding-top: 650px;
+             font-family: 'Gotham', cursive;
+
+         }
+
+         h4 {
+             margin-top: -15px;
+         }
+
+         a {
+             text-decoration: none;
+         }
+
+         #ProgImage {
+             border-radius: 50px;
+             width: 150px;
+             height: 150px;
+         }
+
+
+         #topSection {
+             position: absolute;
+             left: 0px;
+             right: 0px;
+             top: 0px;
+             bottom: 0px;
+             opacity: 0.83;
+             background: linear-gradient(aqua 0%, lime 100%);
+             display: table;
+             height: 100%;
+             width: 100%;
+             overflow: hidden;
+             z-index: 9;
+         }
+
+         p {
+             font-size: 16px;
+         }
+
+         .line {
+             border-bottom: solid;
+             border-bottom-color: black;
+         }
+
+         #mainCell {
+             display: table-cell;
+             position: relative;
+             vertical-align: middle;
+             text-align: center;
+         }
+
+         .menu {
+             list-style: none;
+             position: fixed;
+             top: 0px;
+             z-index: 10;
+             width: 100%;
+             margin-top: 0px;
+             background-color: white;
+         }
+
+         .links {
+             font-size: 20px;
+             padding-bottom: 5px;
+             padding-top: 5px;
+             padding-left: 9px;
+             padding-right: 9px;
+             display: inline;
+         }
+
+         a:hover {
+             background-color: black;
+             font-size: 25px;
+             color: white;
+         }
+
+         #div1 a {
+             color: blue;
+         }
+
+         #div1 a:hover {
+             font-size: 20px;
+             color: blueviolet;
+             background-color: white;
+         }
+
+         a {
+             color: red;
+         }
+
+         #div2 a:hover {
+             background-color: firebrick;
+             font-size: 18px;
+             text-decoration: none;
+         }
+
+         #contact div {
+             background: firebrick;
+         }
+
+         #contact iframe {
+             width: 100%;
+         }
+
+         html {
+             scroll-behavior: smooth;
+         }
+
+         #div2 i {
+             display: inline;
+         }
+
+         a {
+             color: red;
+         }
+
+         #div2 a {
+             color: white;
+             text-shadow: none;
+         }
